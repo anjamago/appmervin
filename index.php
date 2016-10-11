@@ -1,4 +1,4 @@
 <?php
 
 define('GLOBAL_PATCH', dirname(__FILE__));
-require_once 'Config/Config.php';
+require_once 'config/Config.php';

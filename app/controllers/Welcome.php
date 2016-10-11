@@ -8,7 +8,7 @@ class Welcome extends Views{
 
 	public function index(){
 		//parent::view = 'Home';
-		parent::loadView('Home');
+		return parent::loadView('Home');
 		
 	}
 
