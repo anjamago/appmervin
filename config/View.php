@@ -9,8 +9,9 @@ class Views{
 			$this->view = 'Errors';
 
 		if(isset($this->view)){
-			if(file_exists(PATCH_VIEWS.'/'.$this->view.'.html'))
-				include  PATCH_VIEWS.'/'.$this->view.'.html';
+			if(file_exists(PATCH_VIEWS.'/'.$this->view.'.php'))
+				$set = 'una cadena';
+				include  PATCH_VIEWS.'/'.$this->view.'.php';
 		}else
 			die('!!!Opps algo a pasado por favor intente de nuevo' );
 	}

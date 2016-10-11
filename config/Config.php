@@ -19,11 +19,10 @@ define('_DB_SET_', 'UTF8');
 
 
 /**
-*	requerimos el resto de archivos para su procesamiento 
+*	requerimos el resto de archivos para su procesamiento
 *	y ejecucion de nuestra aplicacion
 */
 require_once  PATCH_CONFIG.'/View.php';
 require_once  PATCH_CONFIG.'/ObjectModel.php';
 require_once  PATCH_CONFIG.'/SystemRoute.php';
 require_once  PATCH_CONFIG.'/Route.php';
-
